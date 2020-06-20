@@ -24,17 +24,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5900 1500 50  0001 C CNN
 	1    5900 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L MCU_Module:Arduino_UNO_R3 A1
-U 1 1 5ED0590C
-P 8850 2950
-F 0 "A1" H 8850 4131 50  0000 C CNN
-F 1 "Arduino_UNO_R3" H 8850 4040 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3" H 8850 2950 50  0001 C CIN
-F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 8850 2950 50  0001 C CNN
-	1    8850 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 1500 9050 1500
 Wire Wire Line
@@ -45,8 +34,6 @@ Wire Wire Line
 	9600 1600 9600 4250
 Wire Wire Line
 	9600 4250 8950 4250
-Wire Wire Line
-	8950 4250 8950 4050
 Wire Wire Line
 	9700 4300 9700 1500
 Wire Wire Line
@@ -2131,4 +2118,17 @@ Wire Wire Line
 Connection ~ 5800 6250
 Wire Wire Line
 	5800 6250 5800 6850
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A?
+U 1 1 5F6A3660
+P 8850 2950
+F 0 "A?" H 8850 1861 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 8850 1770 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 8850 2950 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 8850 2950 50  0001 C CNN
+	1    8850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3950 8950 4250
 $EndSCHEMATC

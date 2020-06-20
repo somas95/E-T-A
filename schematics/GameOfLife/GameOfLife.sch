@@ -1966,10 +1966,6 @@ Connection ~ 2800 4450
 Connection ~ 3300 4450
 Wire Wire Line
 	3300 4450 3300 5050
-Wire Wire Line
-	2300 6850 2500 6850
-Connection ~ 2300 6850
-Connection ~ 2500 6850
 Connection ~ 2800 2650
 Wire Wire Line
 	2800 2650 2800 3250
@@ -2119,10 +2115,10 @@ Connection ~ 5800 6250
 Wire Wire Line
 	5800 6250 5800 6850
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A?
+L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5F6A3660
 P 8850 2950
-F 0 "A?" H 8850 1861 50  0000 C CNN
+F 0 "A1" H 8850 1861 50  0000 C CNN
 F 1 "Arduino_Nano_v3.x" H 8850 1770 50  0000 C CNN
 F 2 "Module:Arduino_Nano" H 8850 2950 50  0001 C CIN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 8850 2950 50  0001 C CNN
