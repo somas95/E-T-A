@@ -2060,10 +2060,10 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 8850 2950 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L BOB-09056:BOB-09056 TB?
+L BOB-09056:BOB-09056 TB1
 U 1 1 5EF45707
 P 7250 3550
-F 0 "TB?" H 7250 5317 50  0000 C CNN
+F 0 "TB1" H 7250 5317 50  0000 C CNN
 F 1 "BOB-09056" H 7250 5226 50  0000 C CNN
 F 2 "XDCR_BOB-09056" H 7250 3550 50  0001 L BNN
 F 3 "Manufacturer Recommendations" H 7250 3550 50  0001 L BNN

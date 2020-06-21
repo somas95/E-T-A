@@ -65,7 +65,7 @@ void setup() {
 
   //****** SERIAL ***********//
   println(Serial.list());
-  Serial arduino = new Serial(this, Serial.list()[4], 57600); 
+  Serial arduino = new Serial(this, Serial.list()[32], 57600); 
   arduino.bufferUntil('\n'); 
   //************************//
 

@@ -1,5 +1,5 @@
-const int n_rows = 4;   // matrix size
-const int n_columns = 3;
+const int n_rows = 8;   // matrix size
+const int n_columns = 8;
 
 // columns are digital pins
 //const int colPins[n_columns] = { 8, 9, 10 };
@@ -7,15 +7,11 @@ const int n_columns = 3;
 // rows are analog inputs with 10k resistor to GND.
 const int rowPins[n_rows] = { A0, A1, A2, A3};
 
-//int ldr[n_rows][n_columns];
-//int ldr_basis[n_rows][n_columns];
-//int gol[n_rows][n_columns];
-//int gol_last[n_rows][n_columns];
+int ldr[n_rows][n_columns];
+int ldr_basis[n_rows][n_columns];
+int gol[n_rows][n_columns];
+int gol_last[n_rows][n_columns];
 
-int ldr[8][8];
-int ldr_basis[8][8];
-int gol[8][8];
-int gol_last[8][8];
 bool has_changed = true;
 int margin = 2;
 
@@ -116,9 +112,9 @@ void fillLdrMatrix()
 void sendData()
 {
   //OJO
-  for( int i=0; i<8; i++)
+  for( int i=0; i<n_rows; i++)
   {
-    for( int j=0; j<8; j++)
+    for( int j=0; j<n_columns; j++)
     {
       Serial.print(gol[i][j]);
     }
